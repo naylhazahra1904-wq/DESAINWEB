@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusa Creative</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white font-sans text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-[#183153] text-white">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">Nusa Creative</h1>
+
+            <div class="space-x-5">
+                <a href="#home" class="hover:text-blue-200">Home</a>
+                <a href="#layanan" class="hover:text-blue-200">Layanan</a>
+                <a href="#kontak" class="hover:text-blue-200">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="relative text-center">
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72"
+            class="w-full h-80 object-cover" alt="Nusa Creative">
+        <div class="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white px-4">
+            <h2 class="text-3xl font-bold mb-3">
+                Selamat Datang di Nusa Creative
+            </h2>
+            <p class="mb-5">
+                Membantu bisnis berkembang melalui teknologi digital.
+            </p>
+            <a href="#layanan"
+                class="bg-[#183153] px-5 py-2 rounded-md hover:bg-blue-800 transition">
+                Lihat Layanan
+            </a>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section class="max-w-5xl mx-auto text-center px-6 py-12">
+        <h2 class="text-2xl font-bold text-[#183153] mb-4">
+            Tentang Kami
+        </h2>
+        <p class="text-gray-600">
+            Nusa Creative merupakan layanan digital yang membantu
+            pelaku usaha dalam mengembangkan bisnis melalui teknologi.
+        </p>
+    </section>
+
+     <!-- Layanan -->
+    <section id="layanan" class="bg-gray-50 py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-center text-[#183153] mb-8">
+                Layanan Kami
+            </h2>
+
+            <!-- Grid 4 Card -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <!-- Layanan 1 -->
+                <div class="bg-white border rounded-lg shadow p-5 text-center
+                    hover:shadow-lg transition">
+                    <span class="inline-block bg-blue-100 text-blue-800
+                        text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                        Website
+                    </span>
+                    <h3 class="font-bold text-lg mb-2">
+                        Desain Website
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3">
+                        Membuat website yang menarik dan mudah digunakan.
+                    </p>
+                    <p class="text-xl font-bold text-[#183153] mb-4">
+                        Rp1.500.000
+                    </p>
+                    <a href="#kontak"
+                        class="inline-block bg-[#183153] text-white text-sm
+                        px-4 py-2 rounded-md hover:bg-blue-800 transition">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+                <!-- Layanan 2 -->
+                <div class="bg-white border rounded-lg shadow p-5 text-center
+                    hover:shadow-lg transition">
+                    <span class="inline-block bg-green-100 text-green-800
+                        text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                        Marketing
+                    </span>
+                    <h3 class="font-bold text-lg mb-2">
+                        Digital Marketing
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3">
+                        Membantu promosi bisnis melalui media digital.
+                    </p>
+                    <p class="text-xl font-bold text-[#183153] mb-4">
+                        Rp750.000
+                    </p>
+                    <a href="#kontak"
+                        class="inline-block bg-[#183153] text-white text-sm
+                        px-4 py-2 rounded-md hover:bg-blue-800 transition">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+                <!-- Layanan 3 -->
+                <div class="bg-white border rounded-lg shadow p-5 text-center
+                    hover:shadow-lg transition">
+                    <span class="inline-block bg-purple-100 text-purple-800
+                        text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                        Business
+                    </span>
+                    <h3 class="font-bold text-lg mb-2">
+                        Konsultasi Bisnis
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3">
+                        Memberikan solusi untuk mengembangkan usaha.
+                    </p>
+                    <p class="text-xl font-bold text-[#183153] mb-4">
+                        Rp500.000
+                    </p>
+                    <a href="#kontak"
+                        class="inline-block bg-[#183153] text-white text-sm
+                        px-4 py-2 rounded-md hover:bg-blue-800 transition">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+                <!-- Layanan 4 -->
+                <div class="bg-white border rounded-lg shadow p-5 text-center
+                    hover:shadow-lg transition">
+                    <span class="inline-block bg-orange-100 text-orange-800
+                        text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                        Creative
+                    </span>
+                    <h3 class="font-bold text-lg mb-2">
+                        Desain Grafis
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3">
+                        Membuat desain visual untuk kebutuhan promosi.
+                    </p>
+                    <p class="text-xl font-bold text-[#183153] mb-4">
+                        Rp300.000
+                    </p>
+                    <a href="#kontak"
+                        class="inline-block bg-[#183153] text-white text-sm
+                        px-4 py-2 rounded-md hover:bg-blue-800 transition">
+                        Pesan Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="max-w-3xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-bold text-center text-[#183153] mb-6">
+            Hubungi Kami
+        </h2>
+
+        <form>
+            <input type="text" placeholder="Masukkan nama"
+                class="w-full border rounded-md p-3 mb-3
+                focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+            <input type="email" placeholder="Masukkan email"
+                class="w-full border rounded-md p-3 mb-3
+                focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+            <textarea rows="4" placeholder="Tulis pesan Anda"
+                class="w-full border rounded-md p-3 mb-3
+                focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+            <button type="submit"
+                class="bg-[#183153] text-white px-5 py-2 rounded-md
+                hover:bg-blue-800 transition">
+                Kirim
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#183153] text-white text-center py-4">
+        <p class="text-sm">© 2026 Nusa Creative. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
